@@ -42,17 +42,10 @@ class MyFirstFaceView extends WatchUi.WatchFace {
         var width = dc.getWidth();
         var height = dc.getHeight();
 		
-		dc.drawPoint(0,90);
-		dc.drawPoint(1,90);
-		
-		dc.drawPoint(107,0);
-		dc.drawPoint(107,1);
-		
-		dc.drawPoint(107,179);
-		dc.drawPoint(107,178);
-		
-		dc.drawPoint(214,90);
-		dc.drawPoint(213,90);
+		dc.drawLine(0, 90, 5, 90);
+		dc.drawLine(107, 0, 107, 5);		
+		dc.drawLine(214, 90, 209, 90);
+		dc.drawLine(107, 179, 107, 174);
     }
 
     // Called when this View is removed from the screen. Save the
