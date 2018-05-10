@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="9" pc="268435456" symbol="initialize"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="10" pc="268435460" symbol="initialize"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="14" pc="268435479" symbol="onLayout"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="15" pc="268435483" symbol="onLayout"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="21" pc="268435521" symbol="onShow"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="25" pc="268435526" symbol="onUpdate"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="26" pc="268435530" symbol="onUpdate"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="27" pc="268435547" symbol="onUpdate"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="28" pc="268435605" symbol="onUpdate"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="29" pc="268435641" symbol="onUpdate"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="31" pc="268435685" symbol="onUpdate"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="32" pc="268435721" symbol="onUpdate"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="34" pc="268435735" symbol="onUpdate"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="35" pc="268435766" symbol="onUpdate"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="36" pc="268435776" symbol="onUpdate"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="38" pc="268435799" symbol="onUpdate"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="39" pc="268435835" symbol="onUpdate"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="41" pc="268435878" symbol="drawHashMarks"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="42" pc="268435882" symbol="drawHashMarks"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="43" pc="268435895" symbol="drawHashMarks"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="45" pc="268435908" symbol="drawHashMarks"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="46" pc="268435930" symbol="drawHashMarks"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="48" pc="268435952" symbol="drawHashMarks"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="49" pc="268435974" symbol="drawHashMarks"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="51" pc="268435996" symbol="drawHashMarks"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="52" pc="268436018" symbol="drawHashMarks"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="54" pc="268436040" symbol="drawHashMarks"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="55" pc="268436062" symbol="drawHashMarks"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="61" pc="268436085" symbol="onHide"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="65" pc="268436090" symbol="onExitSleep"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="69" pc="268436095" symbol="onEnterSleep"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="72" pc="268436100" symbol="generateHandCoordinates"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="74" pc="268436104" symbol="generateHandCoordinates"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="75" pc="268436296" symbol="generateHandCoordinates"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="76" pc="268436304" symbol="generateHandCoordinates"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="77" pc="268436323" symbol="generateHandCoordinates"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="80" pc="268436342" symbol="generateHandCoordinates"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="81" pc="268436360" symbol="generateHandCoordinates"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="82" pc="268436397" symbol="generateHandCoordinates"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="84" pc="268436434" symbol="generateHandCoordinates"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceView.mc" lineNum="87" pc="268436496" symbol="generateHandCoordinates"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceApp.mc" lineNum="5" pc="268436500" symbol="initialize"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceApp.mc" lineNum="6" pc="268436504" symbol="initialize"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceApp.mc" lineNum="10" pc="268436523" symbol="onStart"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceApp.mc" lineNum="14" pc="268436528" symbol="onStop"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceApp.mc" lineNum="18" pc="268436533" symbol="getInitialView"/>
+<entry filename="C:\\git\\MyFirstFace\\source\\MyFirstFaceApp.mc" lineNum="19" pc="268436537" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Alexander.Macgregor\\Downloads\\Rez" lineNum="20" pc="268436575" symbol="WatchFace"/>
+<entry filename="C:\\Users\\Alexander.Macgregor\\Downloads\\Rez" lineNum="24" pc="268436587" symbol="WatchFace"/>
+<entry filename="C:\\Users\\Alexander.Macgregor\\Downloads\\Rez" lineNum="25" pc="268436758" symbol="WatchFace"/>
+<entry filename="C:\\Users\\Alexander.Macgregor\\Downloads\\Rez" lineNum="26" pc="268436791" symbol="WatchFace"/>
+<entry filename="C:\\Users\\Alexander.Macgregor\\Downloads\\Rez" lineNum="27" pc="268436843" symbol="WatchFace"/>
+<entry filename="C:\\Users\\Alexander.Macgregor\\Downloads\\Rez" lineNum="30" pc="268436889" symbol="WatchFace"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389349" symbol="justification"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389377" method="true" symbol="onExitSleep"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="16" symbol="AppName"/>
+<entry id="10" object="true" symbol="MyFirstFaceApp"/>
+<entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+<entry id="8388641" module="true" symbol="Math"/>
+<entry field="true" id="15" symbol="LauncherIcon"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="9" object="true" symbol="MyFirstFaceView"/>
+<entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry id="8389348" symbol="font"/>
+<entry id="8389347" symbol="color"/>
+<entry id="11" method="true" symbol="drawHashMarks"/>
+<entry id="14" module="true" symbol="Layouts"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="12" method="true" symbol="generateHandCoordinates"/>
+<entry id="13" module="true" symbol="Menus"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="8388635" module="true" symbol="Application"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435521" name="dc" stackId="1" startPc="268435479"/>
+<entry endPc="268435877" name="screenCenterPoint" stackId="3" startPc="268435530"/>
+<entry endPc="268435877" name="clockTime" stackId="2" startPc="268435530"/>
+<entry endPc="268435877" name="angle" stackId="4" startPc="268435530"/>
+<entry endPc="268435878" name="dc" stackId="1" startPc="268435526"/>
+<entry endPc="268436084" name="height" stackId="3" startPc="268435882"/>
+<entry endPc="268436084" name="width" stackId="2" startPc="268435882"/>
+<entry endPc="268436085" name="dc" stackId="1" startPc="268435878"/>
+<entry endPc="268436483" name="x" stackId="11" startPc="268436360"/>
+<entry endPc="268436483" name="y" stackId="12" startPc="268436360"/>
+<entry endPc="268436496" name="i" stackId="10" startPc="268436360"/>
+<entry endPc="268436499" name="result" stackId="7" startPc="268436104"/>
+<entry endPc="268436499" name="sin" stackId="9" startPc="268436104"/>
+<entry endPc="268436499" name="cos" stackId="8" startPc="268436104"/>
+<entry endPc="268436499" name="coords" stackId="6" startPc="268436104"/>
+<entry endPc="268436500" name="handLength" stackId="3" startPc="268436100"/>
+<entry endPc="268436500" name="tailLength" stackId="4" startPc="268436100"/>
+<entry endPc="268436500" name="width" stackId="5" startPc="268436100"/>
+<entry endPc="268436500" name="angle" stackId="2" startPc="268436100"/>
+<entry endPc="268436500" name="centerPoint" stackId="1" startPc="268436100"/>
+<entry endPc="268436528" name="state" stackId="1" startPc="268436523"/>
+<entry endPc="268436533" name="state" stackId="1" startPc="268436528"/>
+<entry endPc="268436906" name="rez_cmp_local_bitmap_TimeLabel" stackId="2" startPc="268436587"/>
+<entry endPc="268436906" name="rez_cmp_local_bitmap_TimeLabel_fontHeight" stackId="3" startPc="268436587"/>
+<entry endPc="268436907" name="dc" stackId="1" startPc="268436575"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry accessMode="public" name="initialize" parent="MyFirstFaceView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onLayout" parent="MyFirstFaceView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="MyFirstFaceView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="MyFirstFaceView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="drawHashMarks" parent="MyFirstFaceView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="MyFirstFaceView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onExitSleep" parent="MyFirstFaceView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onEnterSleep" parent="MyFirstFaceView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="generateHandCoordinates" parent="MyFirstFaceView">
+<param id="centerPoint"/>
+<param id="angle"/>
+<param id="handLength"/>
+<param id="tailLength"/>
+<param id="width"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="MyFirstFaceApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="MyFirstFaceApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="MyFirstFaceApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getInitialView" parent="MyFirstFaceApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="WatchFace" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+</functions>
+<dataEntryOffsetMappings>
+<dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry offset="166" parentId="globals" symbolId="MyFirstFaceApp" type="class"/>
+<dataEntry offset="237" parentId="globals" symbolId="MyFirstFaceView" type="class"/>
+<dataEntry offset="348" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="427" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="466" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="497" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="528" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="559" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="598" parentId="Rez" symbolId="Strings" type="module"/>
+</dataEntryOffsetMappings>
+</debugInfo>
