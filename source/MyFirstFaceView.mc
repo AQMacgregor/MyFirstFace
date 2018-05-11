@@ -36,7 +36,7 @@ class MyFirstFaceView extends WatchUi.WatchFace {
         
         var angle = (((clockTime.hour % 24) * 60) + clockTime.min);
         angle = angle / (24 * 60.0);
-        angle = angle * Math.PI * 2;
+        angle = (angle * Math.PI * 2) - Math.PI;
         
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);    
         dc.fillPolygon(generateHandCoordinates(screenCenterPoint, angle, 80, 1, 2));        
@@ -65,28 +65,28 @@ class MyFirstFaceView extends WatchUi.WatchFace {
             sY = outerRad + outerRad * Math.sin(i);
             sX = outerRad + outerRad * Math.cos(i);
             if(number == 0){
-            	dc.drawText(sX, sY - 27, Graphics.FONT_TINY, "06", Graphics.TEXT_JUSTIFY_RIGHT);
+            	dc.drawText(sX, sY - 27, Graphics.FONT_TINY, "18", Graphics.TEXT_JUSTIFY_RIGHT);
             }
             else if(number == 1){
-            	dc.drawText(sX + 5, sY - 35, Graphics.FONT_TINY, "09", Graphics.TEXT_JUSTIFY_RIGHT);
+            	dc.drawText(sX + 5, sY - 35, Graphics.FONT_TINY, "21", Graphics.TEXT_JUSTIFY_RIGHT);
             }
             else if(number == 2){
             		
             }
             else if(number == 3){
-            	dc.drawText(sX - 5, sY - 35, Graphics.FONT_TINY, "15", Graphics.TEXT_JUSTIFY_LEFT);
+            	dc.drawText(sX - 5, sY - 35, Graphics.FONT_TINY, "03", Graphics.TEXT_JUSTIFY_LEFT);
             }
             else if(number == 4){
-            	dc.drawText(sX, sY - 26, Graphics.FONT_TINY, "18", Graphics.TEXT_JUSTIFY_LEFT);
+            	dc.drawText(sX, sY - 26, Graphics.FONT_TINY, "06", Graphics.TEXT_JUSTIFY_LEFT);
             }
             else if(number == 5){
-            	dc.drawText(sX - 4, sY - 20, Graphics.FONT_TINY, "21", Graphics.TEXT_JUSTIFY_LEFT);
+            	dc.drawText(sX - 4, sY - 20, Graphics.FONT_TINY, "09", Graphics.TEXT_JUSTIFY_LEFT);
             }
             else if(number == 6){
             		
             }
             else if(number == 7){
-            	dc.drawText(sX + 5, sY - 20, Graphics.FONT_TINY, "03", Graphics.TEXT_JUSTIFY_RIGHT);
+            	dc.drawText(sX + 5, sY - 20, Graphics.FONT_TINY, "15", Graphics.TEXT_JUSTIFY_RIGHT);
             }
         	number++;
         }
