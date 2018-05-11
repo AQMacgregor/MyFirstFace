@@ -31,6 +31,9 @@ class MyFirstFaceView extends WatchUi.WatchFace {
         dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
         drawHashMarks(dc);
         
+        dc.setColor(Graphics.COLOR_DK_RED, Graphics.COLOR_TRANSPARENT);
+        drawNumbers(dc);
+        
         var angle = (((clockTime.hour % 24) * 60) + clockTime.min);
         angle = angle / (24 * 60.0);
         angle = angle * Math.PI * 2;
@@ -39,13 +42,54 @@ class MyFirstFaceView extends WatchUi.WatchFace {
         dc.fillPolygon(generateHandCoordinates(screenCenterPoint, angle, 80, 1, 2));        
     }
 	function drawHashMarks(dc) {
-        var width = dc.getWidth();
-        var height = dc.getHeight();
 		
-		dc.drawLine(0, 90, 5, 90);
-		dc.drawLine(107, 0, 107, 5);		
-		dc.drawLine(214, 90, 209, 90);
-		dc.drawLine(107, 179, 107, 174);
+        var sX, sY;
+        var eX, eY;
+        var outerRad = (dc.getHeight() / 2);
+        var leftIndent = ((dc.getWidth() - dc.getHeight())/2);
+        var innerRad = outerRad - 10;
+        for (var i = Math.PI/12; i < 2 * Math.PI; i += (Math.PI/12)) {
+            sY = outerRad + innerRad * Math.sin(i);
+            eY = outerRad + outerRad * Math.sin(i);
+            sX = leftIndent + outerRad + innerRad * Math.cos(i);
+            eX = leftIndent + outerRad + outerRad * Math.cos(i);
+            dc.drawLine(sX, sY, eX, eY);
+        }
+    }
+	function drawNumbers(dc) {		
+        var sX, sY;
+        var eX, eY;
+        var outerRad = (dc.getWidth() / 2);
+        var number = 0;
+        for (var i = 0; i < 2 * Math.PI; i += (Math.PI/4)) {
+            sY = outerRad + outerRad * Math.sin(i);
+            sX = outerRad + outerRad * Math.cos(i);
+            if(number == 0){
+            	dc.drawText(sX, sY - 27, Graphics.FONT_TINY, "06", Graphics.TEXT_JUSTIFY_RIGHT);
+            }
+            else if(number == 1){
+            	dc.drawText(sX + 5, sY - 35, Graphics.FONT_TINY, "09", Graphics.TEXT_JUSTIFY_RIGHT);
+            }
+            else if(number == 2){
+            		
+            }
+            else if(number == 3){
+            	dc.drawText(sX - 5, sY - 35, Graphics.FONT_TINY, "15", Graphics.TEXT_JUSTIFY_LEFT);
+            }
+            else if(number == 4){
+            	dc.drawText(sX, sY - 26, Graphics.FONT_TINY, "18", Graphics.TEXT_JUSTIFY_LEFT);
+            }
+            else if(number == 5){
+            	dc.drawText(sX - 4, sY - 20, Graphics.FONT_TINY, "21", Graphics.TEXT_JUSTIFY_LEFT);
+            }
+            else if(number == 6){
+            		
+            }
+            else if(number == 7){
+            	dc.drawText(sX + 5, sY - 20, Graphics.FONT_TINY, "03", Graphics.TEXT_JUSTIFY_RIGHT);
+            }
+        	number++;
+        }
     }
 
     // Called when this View is removed from the screen. Save the
