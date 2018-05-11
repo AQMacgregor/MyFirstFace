@@ -49,10 +49,10 @@ class MyFirstFaceView extends WatchUi.WatchFace {
         var leftIndent = ((dc.getWidth() - dc.getHeight())/2);
         var innerRad = outerRad - 10;
         for (var i = Math.PI/12; i < 2 * Math.PI; i += (Math.PI/12)) {
-            sY = outerRad + innerRad * Math.sin(i);
-            eY = outerRad + outerRad * Math.sin(i);
-            sX = leftIndent + outerRad + innerRad * Math.cos(i);
-            eX = leftIndent + outerRad + outerRad * Math.cos(i);
+            sY = Math.round(outerRad + innerRad * Math.sin(i));
+            eY = Math.round(outerRad + outerRad * Math.sin(i));
+            sX = Math.round(leftIndent + outerRad + innerRad * Math.cos(i));
+            eX = Math.round(leftIndent + outerRad + outerRad * Math.cos(i));
             dc.drawLine(sX, sY, eX, eY);
         }
     }
@@ -62,10 +62,10 @@ class MyFirstFaceView extends WatchUi.WatchFace {
         var outerRad = (dc.getWidth() / 2);
         var number = 0;
         for (var i = 0; i < 2 * Math.PI; i += (Math.PI/4)) {
-            sY = outerRad + outerRad * Math.sin(i);
-            sX = outerRad + outerRad * Math.cos(i);
+            sY = Math.round(outerRad + outerRad * Math.sin(i));
+            sX = Math.round(outerRad + outerRad * Math.cos(i));
             if(number == 0){
-            	dc.drawText(sX, sY - 27, Graphics.FONT_TINY, "18", Graphics.TEXT_JUSTIFY_RIGHT);
+            	dc.drawText(sX, sY - 28, Graphics.FONT_TINY, "18", Graphics.TEXT_JUSTIFY_RIGHT);
             }
             else if(number == 1){
             	dc.drawText(sX + 5, sY - 35, Graphics.FONT_TINY, "21", Graphics.TEXT_JUSTIFY_RIGHT);
@@ -77,10 +77,10 @@ class MyFirstFaceView extends WatchUi.WatchFace {
             	dc.drawText(sX - 5, sY - 35, Graphics.FONT_TINY, "03", Graphics.TEXT_JUSTIFY_LEFT);
             }
             else if(number == 4){
-            	dc.drawText(sX, sY - 26, Graphics.FONT_TINY, "06", Graphics.TEXT_JUSTIFY_LEFT);
+            	dc.drawText(sX, sY - 28, Graphics.FONT_TINY, "05", Graphics.TEXT_JUSTIFY_LEFT);
             }
             else if(number == 5){
-            	dc.drawText(sX - 4, sY - 20, Graphics.FONT_TINY, "09", Graphics.TEXT_JUSTIFY_LEFT);
+            	dc.drawText(sX - 5, sY - 20, Graphics.FONT_TINY, "09", Graphics.TEXT_JUSTIFY_LEFT);
             }
             else if(number == 6){
             		
