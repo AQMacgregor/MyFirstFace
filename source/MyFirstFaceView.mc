@@ -77,7 +77,7 @@ class MyFirstFaceView extends WatchUi.WatchFace {
             	dc.drawText(sX - 5, sY - 35, Graphics.FONT_TINY, "03", Graphics.TEXT_JUSTIFY_LEFT);
             }
             else if(number == 4){
-            	dc.drawText(sX, sY - 28, Graphics.FONT_TINY, "05", Graphics.TEXT_JUSTIFY_LEFT);
+            	dc.drawText(sX, sY - 28, Graphics.FONT_TINY, "06", Graphics.TEXT_JUSTIFY_LEFT);
             }
             else if(number == 5){
             	dc.drawText(sX - 5, sY - 20, Graphics.FONT_TINY, "09", Graphics.TEXT_JUSTIFY_LEFT);
